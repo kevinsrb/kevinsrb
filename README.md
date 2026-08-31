@@ -66,8 +66,8 @@ Generador de proyectos **TypeScript** para crear APIs Express y frontends React 
 
 ## 📊 Actividad en GitHub
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
+<img height="160" src="https://github-stats-extended.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
+<img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
 
 ### 🤝 Conectemos
 
