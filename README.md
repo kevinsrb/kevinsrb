@@ -2,13 +2,7 @@
 
 ## Hola, soy <span style="color:#ff5714">Kevin Rodriguez</span> 👋
 
-<img src="./assets/banner-final.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
-
-<p>
-  <a href="https://github.com/kevinsrb"><img src="https://img.shields.io/badge/GitHub-kevinsrb-111820?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/kevinsamirrodriguez/"><img src="https://img.shields.io/badge/LinkedIn-Kevin_Rodriguez-111820?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
-  <a href="mailto:kevinsrb.1999@gmail.com"><img src="https://img.shields.io/badge/Email-Contacto-111820?style=flat-square&logo=gmail&logoColor=EA4335" /></a>
-</p>
+<img src="./assets/banner-refined.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
 
 </div>
 
