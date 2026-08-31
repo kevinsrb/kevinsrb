@@ -1,96 +1,25 @@
 <svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#071016"/><stop offset="0.55" stop-color="#081015"/><stop offset="1" stop-color="#0B1116"/>
-  </linearGradient>
-  <linearGradient id="orange" x1="190" y1="140" x2="340" y2="245" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FF6A18"/><stop offset="1" stop-color="#F04408"/>
-  </linearGradient>
-  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.2" fill="#FF5A16" fill-opacity="0.09"/>
-  </pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#071016"/><stop offset=".55" stop-color="#081015"/><stop offset="1" stop-color="#0B1116"/></linearGradient>
+  <linearGradient id="orange" x1="190" y1="140" x2="340" y2="245" gradientUnits="userSpaceOnUse"><stop stop-color="#FF6A18"/><stop offset="1" stop-color="#F04408"/></linearGradient>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FF5A16" fill-opacity=".09"/></pattern>
   <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
 </defs>
-
-<rect x="4" y="4" width="1492" height="492" rx="22" fill="url(#bg)"/>
-<rect x="4.75" y="4.75" width="1490.5" height="490.5" rx="21.25" stroke="#34414A" stroke-width="1.5"/>
-<rect x="930" y="4" width="566" height="492" rx="22" fill="url(#dots)" opacity="0.70"/>
-
-<!-- technical corners -->
-<path d="M4 98H106C124 98 137 92 150 80L229 4" stroke="#FF5916" stroke-width="6"/>
-<path d="M4 105H87C109 105 123 98 138 84L222 4" stroke="#FF6B1B" stroke-width="16" stroke-opacity="0.12" filter="url(#soft)"/>
-<path d="M4 132H93C119 132 138 123 157 104L258 4" stroke="#D8440D" stroke-width="2"/>
-<path d="M4 168H124C145 168 160 160 176 144L313 4" stroke="#8C2C0C" stroke-width="1.3"/>
-<path d="M4 205H161C182 205 199 198 215 181L394 4" stroke="#4A261B" stroke-width="1"/>
-
-<path d="M1496 401H1367C1347 401 1333 407 1318 422L1240 496" stroke="#FF5916" stroke-width="6"/>
-<path d="M1496 410H1394C1372 410 1357 416 1340 432L1273 496" stroke="#FF6B1B" stroke-width="16" stroke-opacity="0.11" filter="url(#soft)"/>
-<path d="M1496 369H1343C1324 369 1309 376 1294 390L1185 496" stroke="#D8440D" stroke-width="2"/>
-<path d="M1496 331H1302C1281 331 1263 339 1248 354L1105 496" stroke="#8C2C0C" stroke-width="1.3"/>
-<path d="M1496 290H1262C1239 290 1221 298 1205 314L1021 496" stroke="#4A261B" stroke-width="1"/>
-
-<!-- clear geometric KR monogram -->
-<g transform="translate(224 142)" fill="url(#orange)">
-  <!-- K -->
-  <rect x="0" y="0" width="20" height="104" rx="2"/>
-  <path d="M19 49L63 0H89L46 48L92 104H66L19 55V49Z"/>
-  <!-- R -->
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M98 0H142C174 0 192 15 192 41C192 60 182 73 165 79L199 104H170L139 82H119V104H98V0ZM119 20V62H142C160 62 170 55 170 41C170 27 160 20 142 20H119Z"/>
+<rect x="4" y="4" width="1492" height="492" rx="22" fill="url(#bg)"/><rect x="4.75" y="4.75" width="1490.5" height="490.5" rx="21.25" stroke="#34414A" stroke-width="1.5"/><rect x="930" y="4" width="566" height="492" rx="22" fill="url(#dots)" opacity=".70"/>
+<path d="M4 98H106C124 98 137 92 150 80L229 4" stroke="#FF5916" stroke-width="6"/><path d="M4 105H87C109 105 123 98 138 84L222 4" stroke="#FF6B1B" stroke-width="16" stroke-opacity=".12" filter="url(#soft)"/><path d="M4 132H93C119 132 138 123 157 104L258 4" stroke="#D8440D" stroke-width="2"/><path d="M4 168H124C145 168 160 160 176 144L313 4" stroke="#8C2C0C" stroke-width="1.3"/><path d="M4 205H161C182 205 199 198 215 181L394 4" stroke="#4A261B"/>
+<path d="M1496 401H1367C1347 401 1333 407 1318 422L1240 496" stroke="#FF5916" stroke-width="6"/><path d="M1496 410H1394C1372 410 1357 416 1340 432L1273 496" stroke="#FF6B1B" stroke-width="16" stroke-opacity=".11" filter="url(#soft)"/><path d="M1496 369H1343C1324 369 1309 376 1294 390L1185 496" stroke="#D8440D" stroke-width="2"/><path d="M1496 331H1302C1281 331 1263 339 1248 354L1105 496" stroke="#8C2C0C" stroke-width="1.3"/><path d="M1496 290H1262C1239 290 1221 298 1205 314L1021 496" stroke="#4A261B"/>
+<!-- compact angular KR monogram -->
+<g transform="translate(226 146)" fill="url(#orange)">
+ <path d="M0 0H18V42L57 0H82L43 43L84 94H60L31 57L18 70V94H0Z"/>
+ <path fill-rule="evenodd" d="M73 0H122C151 0 168 14 168 39C168 57 158 69 142 75L172 94H143L116 78H96V94H76V51L96 30V59H121C138 59 147 52 147 40C147 27 138 20 121 20H94L73 43V0Z"/>
 </g>
-
-<!-- identity -->
-<text x="430" y="177" fill="#F4F6F7" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="6">KEVIN</text>
-<text x="655" y="177" fill="#F24D0A" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="2">RODRIGUEZ</text>
-<text x="432" y="218" fill="#9EA6AD" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="9">FULL STACK DEVELOPER</text>
-
-<!-- social: GitHub + LinkedIn only -->
-<g transform="translate(1115 145)" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
-  <circle cx="31" cy="31" r="29" fill="#0B1116" stroke="#394149" stroke-width="2"/>
-  <circle cx="119" cy="31" r="29" fill="#0B1116" stroke="#394149" stroke-width="2"/>
-  <circle cx="31" cy="29" r="11" fill="#F1F3F5"/>
-  <path d="M24 29C24 22 38 22 38 29M25 38C25 34 27 32 30 32H32C36 32 38 34 38 38" stroke="#0B1116" stroke-width="3" stroke-linecap="round"/>
-  <text x="119" y="39" fill="#F1F3F5" font-size="28" font-weight="800">in</text>
-  <text x="75" y="100" fill="#F25512" font-size="22" font-weight="700">@kevinsrb</text>
-</g>
-
+<!-- identity with deliberate visual gap -->
+<text x="420" y="177" fill="#F4F6F7" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="6">KEVIN</text>
+<text x="700" y="177" fill="#F24D0A" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="800" letter-spacing="2">RODRIGUEZ</text>
+<text x="422" y="218" fill="#9EA6AD" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="9">FULL STACK DEVELOPER</text>
+<!-- GitHub + LinkedIn -->
+<g transform="translate(1160 145)" font-family="Arial, Helvetica, sans-serif" text-anchor="middle"><circle cx="31" cy="31" r="29" fill="#0B1116" stroke="#394149" stroke-width="2"/><circle cx="119" cy="31" r="29" fill="#0B1116" stroke="#394149" stroke-width="2"/><circle cx="31" cy="29" r="11" fill="#F1F3F5"/><path d="M24 29C24 22 38 22 38 29M25 38C25 34 27 32 30 32H32C36 32 38 34 38 38" stroke="#0B1116" stroke-width="3" stroke-linecap="round"/><text x="119" y="39" fill="#F1F3F5" font-size="28" font-weight="800">in</text><text x="75" y="100" fill="#F25512" font-size="22" font-weight="700">@kevinsrb</text></g>
 <!-- feature pills -->
-<g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#EEF1F3">
-  <g transform="translate(165 281)">
-    <rect width="232" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/>
-    <text x="25" y="32" fill="#FF5A16" font-size="18" font-weight="700">&lt;/&gt;</text>
-    <text x="65" y="32">Backend Focused</text>
-  </g>
-  <g transform="translate(417 281)">
-    <rect width="210" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/>
-    <text x="25" y="32" fill="#FF5A16" font-size="19" font-weight="700">›_</text>
-    <text x="64" y="32">Clean Code</text>
-  </g>
-  <g transform="translate(647 281)">
-    <rect width="220" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/>
-    <g transform="translate(22 15)" stroke="#FF5A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M2 18L18 2"/><path d="M11 2H18V9"/><path d="M2 18L2 12M2 18H8"/>
-    </g>
-    <text x="61" y="32">Scalable Apps</text>
-  </g>
-  <g transform="translate(887 281)">
-    <rect width="214" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/>
-    <g transform="translate(20 14)" stroke="#FF5A16" stroke-width="2" fill="none">
-      <path d="M10 2C4 2 1 6 1 11C1 15 3 18 6 20V24H14V20C17 18 19 15 19 11C19 6 16 2 10 2Z"/>
-      <path d="M6 28H14"/>
-    </g>
-    <text x="59" y="32">Problem Solver</text>
-  </g>
-</g>
-
+<g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#EEF1F3"><g transform="translate(165 281)"><rect width="232" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/><text x="25" y="32" fill="#FF5A16" font-size="18" font-weight="700">&lt;/&gt;</text><text x="65" y="32">Backend Focused</text></g><g transform="translate(417 281)"><rect width="210" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/><text x="25" y="32" fill="#FF5A16" font-size="19" font-weight="700">›_</text><text x="64" y="32">Clean Code</text></g><g transform="translate(647 281)"><rect width="220" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/><g transform="translate(22 15)" stroke="#FF5A16" stroke-width="2" stroke-linecap="round"><path d="M2 18L18 2M11 2H18V9M2 18V12M2 18H8"/></g><text x="61" y="32">Scalable Apps</text></g><g transform="translate(887 281)"><rect width="214" height="50" rx="25" fill="#0B1116" stroke="#5A372A" stroke-width="2"/><g transform="translate(20 14)" stroke="#FF5A16" stroke-width="2" fill="none"><path d="M10 2C4 2 1 6 1 11C1 15 3 18 6 20V24H14V20C17 18 19 15 19 11C19 6 16 2 10 2Z"/><path d="M6 28H14"/></g><text x="59" y="32">Problem Solver</text></g></g>
 <!-- tech row -->
-<g font-family="Arial, Helvetica, sans-serif" font-weight="700">
-  <g transform="translate(182 390)"><circle cx="31" cy="31" r="29" fill="#0D1519"/><circle cx="31" cy="31" r="13" fill="#6AA35A"/><text x="31" y="36" text-anchor="middle" fill="#fff" font-size="12">N</text><text x="31" y="73" text-anchor="middle" fill="#F4F6F7" font-size="12" letter-spacing="1.5">node</text></g>
-  <g transform="translate(296 390)"><rect x="7" y="7" width="48" height="48" rx="4" fill="#3178C6"/><text x="31" y="43" text-anchor="middle" fill="white" font-size="25">TS</text></g>
-  <g transform="translate(408 390)"><circle cx="31" cy="31" r="25" fill="#E0234E"/><path d="M20 24L31 14L42 24V39L31 47L20 39V24Z" fill="#0B1116"/><text x="68" y="40" fill="#E0234E" font-size="24">nest</text></g>
-  <g transform="translate(558 390)"><circle cx="31" cy="31" r="4" fill="#61DAFB"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3" transform="rotate(60 31 31)"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3" transform="rotate(120 31 31)"/></g>
-  <g transform="translate(674 390)"><text x="31" y="32" text-anchor="middle" fill="#F1F3F4" font-size="25">aws</text><path d="M9 43C23 51 41 51 55 44" stroke="#FF9900" stroke-width="4" stroke-linecap="round"/></g>
-  <g transform="translate(790 390)"><path d="M31 4L53 17V44L31 57L9 44V17L31 4Z" fill="#fff"/><path d="M31 4L53 17L44 23L31 16L18 23L9 17L31 4Z" fill="#4285F4"/><path d="M53 17V44L44 39V23L53 17Z" fill="#34A853"/><path d="M9 17L18 23V39L9 44V17Z" fill="#FBBC05"/><path d="M9 44L31 57L31 46L18 39L9 44Z" fill="#EA4335"/></g>
-  <g transform="translate(906 390)"><path d="M9 34H47C47 45 40 54 28 54C17 54 9 46 9 34Z" fill="#2496ED"/><rect x="19" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="30" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="41" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="30" y="7" width="9" height="9" rx="1" fill="#2496ED"/><path d="M48 31C54 30 58 27 60 22C63 28 60 34 54 36" stroke="#2496ED" stroke-width="4" stroke-linecap="round"/></g>
-  <g transform="translate(1018 390)"><circle cx="31" cy="31" r="29" fill="#326CE5"/><circle cx="31" cy="31" r="8" fill="none" stroke="white" stroke-width="3"/><path d="M31 11V23M31 39V51M11 31H23M39 31H51M17 17L25 25M37 37L45 45M45 17L37 25M25 37L17 45" stroke="white" stroke-width="3" stroke-linecap="round"/></g>
-</g>
-</svg>
+<g font-family="Arial, Helvetica, sans-serif" font-weight="700"><g transform="translate(182 390)"><circle cx="31" cy="31" r="29" fill="#0D1519"/><circle cx="31" cy="31" r="13" fill="#6AA35A"/><text x="31" y="36" text-anchor="middle" fill="#fff" font-size="12">N</text><text x="31" y="73" text-anchor="middle" fill="#F4F6F7" font-size="12">node</text></g><g transform="translate(296 390)"><rect x="7" y="7" width="48" height="48" rx="4" fill="#3178C6"/><text x="31" y="43" text-anchor="middle" fill="white" font-size="25">TS</text></g><g transform="translate(408 390)"><circle cx="31" cy="31" r="25" fill="#E0234E"/><path d="M20 24L31 14L42 24V39L31 47L20 39V24Z" fill="#0B1116"/><text x="68" y="40" fill="#E0234E" font-size="24">nest</text></g><g transform="translate(558 390)"><circle cx="31" cy="31" r="4" fill="#61DAFB"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3" transform="rotate(60 31 31)"/><ellipse cx="31" cy="31" rx="27" ry="10" stroke="#61DAFB" stroke-width="3" transform="rotate(120 31 31)"/></g><g transform="translate(674 390)"><text x="31" y="32" text-anchor="middle" fill="#F1F3F4" font-size="25">aws</text><path d="M9 43C23 51 41 51 55 44" stroke="#FF9900" stroke-width="4" stroke-linecap="round"/></g><g transform="translate(790 390)"><path d="M31 4L53 17V44L31 57L9 44V17L31 4Z" fill="#fff"/><path d="M31 4L53 17L44 23L31 16L18 23L9 17L31 4Z" fill="#4285F4"/><path d="M53 17V44L44 39V23L53 17Z" fill="#34A853"/><path d="M9 17L18 23V39L9 44V17Z" fill="#FBBC05"/><path d="M9 44L31 57L31 46L18 39L9 44Z" fill="#EA4335"/></g><g transform="translate(906 390)"><path d="M9 34H47C47 45 40 54 28 54C17 54 9 46 9 34Z" fill="#2496ED"/><rect x="19" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="30" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="41" y="18" width="9" height="9" rx="1" fill="#2496ED"/><rect x="30" y="7" width="9" height="9" rx="1" fill="#2496ED"/></g><g transform="translate(1018 390)"><circle cx="31" cy="31" r="29" fill="#326CE5"/><circle cx="31" cy="31" r="8" fill="none" stroke="white" stroke-width="3"/><path d="M31 11V23M31 39V51M11 31H23M39 31H51M17 17L25 25M37 37L45 45M45 17L37 25M25 37L17 45" stroke="white" stroke-width="3" stroke-linecap="round"/></g></g></svg>
