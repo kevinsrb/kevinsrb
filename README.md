@@ -1,16 +1,18 @@
 <div align="center">
 
-# Hola, soy Kevin Rodriguez 👋
+## Hola, soy Kevin Rodriguez 👋
 
 <img src="./assets/banner.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
 
-### Full Stack Developer · Backend Focused
+<br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-kevinsrb-181717?style=for-the-badge&logo=github)](https://github.com/kevinsrb)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin_Rodriguez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevinsamirrodriguez/)
-[![Email](https://img.shields.io/badge/Email-kevinsrb.1999%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kevinsrb.1999@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-kevinsrb-111820?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kevinsrb)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin_Rodriguez-111820?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/kevinsamirrodriguez/)
+[![Email](https://img.shields.io/badge/Email-Contacto-111820?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:kevinsrb.1999@gmail.com)
 
 </div>
+
+---
 
 ## 👨‍💻 Sobre mí
 
