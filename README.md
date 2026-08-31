@@ -1,74 +1,39 @@
 <div align="center">
 
-## Hola, soy Kevin Rodriguez 👋
+## Hola, soy <span style="color:#ff5714">Kevin Rodriguez</span> 👋
 
 <img src="./assets/banner.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
 
-<br />
-
-[![GitHub](https://img.shields.io/badge/GitHub-kevinsrb-111820?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kevinsrb)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin_Rodriguez-111820?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/kevinsamirrodriguez/)
-[![Email](https://img.shields.io/badge/Email-Contacto-111820?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:kevinsrb.1999@gmail.com)
+<p>
+  <a href="https://github.com/kevinsrb"><img src="https://img.shields.io/badge/GitHub-kevinsrb-111820?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/kevinsamirrodriguez/"><img src="https://img.shields.io/badge/LinkedIn-Kevin_Rodriguez-111820?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
+  <a href="mailto:kevinsrb.1999@gmail.com"><img src="https://img.shields.io/badge/Email-Contacto-111820?style=flat-square&logo=gmail&logoColor=EA4335" /></a>
+</p>
 
 </div>
 
----
-
 ## 👨‍💻 Sobre mí
 
-Soy desarrollador **Full Stack** con más de **6 años de experiencia**, con un fuerte enfoque en **backend**, diseño de APIs y construcción de soluciones mantenibles y escalables.
+Soy desarrollador **Full Stack con +6 años de experiencia**, enfocado principalmente en **backend, APIs y arquitectura de software** con Node.js y TypeScript.
 
-- 🚀 Me gusta construir APIs robustas, servicios backend y arquitecturas preparadas para crecer.
-- 🧩 Trabajo con **Node.js, TypeScript, NestJS y .NET/C#**, aplicando principios de Clean Architecture, DDD y arquitectura hexagonal cuando el problema lo requiere.
-- ☁️ Experiencia trabajando con **AWS, GCP, Docker y Kubernetes**.
-- 🗄️ Trabajo con bases de datos relacionales y NoSQL como **PostgreSQL, MySQL, MongoDB, Firestore y Redis**.
-- 🤖 Interesado en **IA, automatización, arquitectura de software y DevOps**.
-- 🎯 Mi objetivo es seguir creciendo técnicamente, aportar valor a productos reales y construir software que sea fácil de mantener y evolucionar.
+- 🚀 Construyo APIs robustas y servicios backend preparados para crecer.
+- 🧩 Trabajo con **Node.js, TypeScript, NestJS y .NET/C#**, aplicando Clean Architecture, DDD y arquitectura hexagonal cuando aportan valor.
+- ☁️ Experiencia con **AWS, GCP, Docker y Kubernetes**, además de PostgreSQL, MySQL, MongoDB, Firestore y Redis.
+- 🤖 Interesado en **IA, automatización y DevOps**, siempre buscando soluciones simples, mantenibles y eficientes.
 
 ## 🛠️ Tecnologías
 
-### Backend
+<div align="center">
 
-![Node.js](https://img.shields.io/badge/Node.js-111820?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
-![TypeScript](https://img.shields.io/badge/TypeScript-111820?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![NestJS](https://img.shields.io/badge/NestJS-111820?style=for-the-badge&logo=nestjs&logoColor=E0234E)
-![Express](https://img.shields.io/badge/Express-111820?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-111820?style=for-the-badge&logo=fastify&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-111820?style=for-the-badge&logo=dotnet&logoColor=512BD4)
-![C#](https://img.shields.io/badge/C%23-111820?style=for-the-badge&logo=sharp&logoColor=9B4F96)
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,nestjs,express,react,angular,vue,dotnet,cs&theme=dark&perline=10" alt="Backend y frontend" />
+<br />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,docker,kubernetes,aws,gcp,git,githubactions&theme=dark&perline=10" alt="Bases de datos, cloud y DevOps" />
 
-### Frontend
-
-![Angular](https://img.shields.io/badge/Angular-111820?style=for-the-badge&logo=angular&logoColor=DD0031)
-![React](https://img.shields.io/badge/React-111820?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-111820?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-
-### Bases de datos
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111820?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![MySQL](https://img.shields.io/badge/MySQL-111820?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![MongoDB](https://img.shields.io/badge/MongoDB-111820?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![Redis](https://img.shields.io/badge/Redis-111820?style=for-the-badge&logo=redis&logoColor=FF4438)
-![Firebase](https://img.shields.io/badge/Firestore-111820?style=for-the-badge&logo=firebase&logoColor=FFCA28)
-
-### Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-111820?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-111820?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
-![Docker](https://img.shields.io/badge/Docker-111820?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-111820?style=for-the-badge&logo=kubernetes&logoColor=326CE5)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111820?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-![Linux](https://img.shields.io/badge/Linux-111820?style=for-the-badge&logo=linux&logoColor=FCC624)
-
-### Desarrollo & calidad
-
-![Prisma](https://img.shields.io/badge/Prisma-111820?style=for-the-badge&logo=prisma&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-111820?style=for-the-badge&logo=jest&logoColor=C21325)
-![Git](https://img.shields.io/badge/Git-111820?style=for-the-badge&logo=git&logoColor=F05032)
-![Swagger](https://img.shields.io/badge/Swagger-111820?style=for-the-badge&logo=swagger&logoColor=85EA2D)
-![Postman](https://img.shields.io/badge/Postman-111820?style=for-the-badge&logo=postman&logoColor=FF6C37)
+</div>
 
 ## 🚀 Proyectos destacados
+
+<p align="right"><a href="https://github.com/kevinsrb?tab=repositories">Ver todos los repositorios →</a></p>
 
 <table>
 <tr>
@@ -76,13 +41,13 @@ Soy desarrollador **Full Stack** con más de **6 años de experiencia**, con un 
 
 ### 📦 [inventory-management-api](https://github.com/kevinsrb/inventory-management-api)
 
-API de gestión de inventario orientada a dominio, construida con **NestJS + TypeScript**.
+API REST de gestión de inventario construida con **NestJS + TypeScript**, orientada a reglas de negocio explícitas y consistencia de datos.
 
-`NestJS` `PostgreSQL` `Prisma` `Jest` `Docker`
+**Stack:** `NestJS` `PostgreSQL` `Prisma` `Jest` `Docker`
 
-- Arquitectura limpia/hexagonal y módulos por dominio.
-- Reglas de negocio, value objects y casos de uso explícitos.
-- Control de consistencia y concurrencia en operaciones de inventario.
+- Clean / Hexagonal Architecture.
+- Value Objects, políticas de dominio y casos de uso.
+- Control de concurrencia y operaciones transaccionales.
 - Swagger/OpenAPI y pruebas automatizadas.
 
 </td>
@@ -90,14 +55,14 @@ API de gestión de inventario orientada a dominio, construida con **NestJS + Typ
 
 ### ⚡ [create-flex-stack](https://github.com/kevinsrb/create-flex-stack)
 
-Generador de proyectos **TypeScript** para crear APIs Express y, opcionalmente, frontends React + Vite.
+Generador de proyectos **TypeScript** para crear APIs Express y frontends React + Vite opcionales.
 
-`TypeScript` `Express` `React` `Prisma` `Docker`
+**Stack:** `TypeScript` `Express` `React` `Prisma` `Docker`
 
-- Diferentes estilos arquitectónicos, incluyendo Clean y Hexagonal.
+- Arquitectura Layered, Clean o Hexagonal.
 - PostgreSQL, MySQL, SQLite y MongoDB.
 - Prisma, TypeORM y Mongoose.
-- Opciones para JWT, RBAC, Swagger, Redis, Jest y Docker.
+- JWT, RBAC, Swagger, Redis, Jest y Docker opcionales.
 
 </td>
 </tr>
@@ -105,18 +70,16 @@ Generador de proyectos **TypeScript** para crear APIs Express y, opcionalmente, 
 
 <div align="center">
 
-## 📊 GitHub
+## 📊 Actividad en GitHub
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
 
 ### 🤝 Conectemos
 
-Estoy abierto a colaborar en proyectos interesantes y a conversar sobre **backend, arquitectura, Node.js, cloud e IA**.
+**Backend · Node.js · Arquitectura · Cloud · IA**
 
-[![LinkedIn](https://img.shields.io/badge/Hablemos_en_LinkedIn-FF5714?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevinsamirrodriguez/)
-[![Email](https://img.shields.io/badge/Escríbeme-111820?style=for-the-badge&logo=gmail&logoColor=FF5714)](mailto:kevinsrb.1999@gmail.com)
-
-<sub>Diseñando sistemas que crecen sin convertir el código en un problema.</sub>
+<a href="https://www.linkedin.com/in/kevinsamirrodriguez/"><img src="https://img.shields.io/badge/LinkedIn-FF5714?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:kevinsrb.1999@gmail.com"><img src="https://img.shields.io/badge/Email-111820?style=for-the-badge&logo=gmail&logoColor=FF5714" /></a>
 
 </div>
