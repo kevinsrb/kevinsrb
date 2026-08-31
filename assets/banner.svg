@@ -1,71 +1,63 @@
 <svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="40" y1="20" x2="1360" y2="410" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#0A0E12"/>
-    <stop offset="0.5" stop-color="#090D11"/>
-    <stop offset="1" stop-color="#11161B"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#090D10"/><stop offset="0.55" stop-color="#080C0F"/><stop offset="1" stop-color="#11161A"/>
   </linearGradient>
   <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#FF7A18"/>
-    <stop offset="0.55" stop-color="#FF5714"/>
-    <stop offset="1" stop-color="#FF3D00"/>
+    <stop stop-color="#FF7A18"/><stop offset="0.5" stop-color="#FF5714"/><stop offset="1" stop-color="#FF3D00"/>
   </linearGradient>
-  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-    <feGaussianBlur stdDeviation="12" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1" fill="#FF5714" fill-opacity=".16"/>
-  </pattern>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#FF5714" fill-opacity=".14"/></pattern>
 </defs>
-
 <rect width="1400" height="430" rx="26" fill="url(#bg)"/>
 <rect x="1" y="1" width="1398" height="428" rx="25" stroke="#303840"/>
-<rect x="920" y="0" width="480" height="430" fill="url(#dots)" opacity=".65"/>
+<rect x="900" width="500" height="430" fill="url(#dots)" opacity=".75"/>
 
-<!-- technical corners -->
-<path d="M0 88H112L182 18H402" stroke="#FF5714" stroke-width="3"/>
-<path d="M0 116H148L214 50H462" stroke="#FF5714" stroke-opacity=".38"/>
-<path d="M1400 320H1278L1206 392H996" stroke="#FF5714" stroke-width="3"/>
-<path d="M1400 290H1258L1190 358H944" stroke="#FF5714" stroke-opacity=".4"/>
+<!-- corner circuitry -->
+<path d="M0 74H112L184 2H370" stroke="#FF5714" stroke-width="3"/>
+<path d="M0 103H145L211 37H404" stroke="#FF5714" stroke-opacity=".36"/>
+<path d="M0 132H178L238 72H445" stroke="#FF5714" stroke-opacity=".18"/>
+<path d="M1400 309H1282L1208 383H1036" stroke="#FF5714" stroke-width="3"/>
+<path d="M1400 280H1250L1186 344H984" stroke="#FF5714" stroke-opacity=".4"/>
+<path d="M1400 251H1220L1162 309H948" stroke="#FF5714" stroke-opacity=".18"/>
 
-<!-- KR mark -->
-<g transform="translate(90 105)">
-  <rect x="0" y="0" width="200" height="200" rx="34" fill="#0F151A" stroke="#FF5714" stroke-opacity=".55"/>
-  <rect x="14" y="14" width="172" height="172" rx="26" fill="#0B1014" stroke="#FF5714" stroke-opacity=".15"/>
-  <text x="100" y="133" text-anchor="middle" fill="url(#orange)" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="900" letter-spacing="-10" filter="url(#glow)">KR</text>
+<!-- free KR monogram, no box -->
+<g transform="translate(88 96)" filter="url(#glow)">
+  <path d="M0 0H34V92L107 0H151L78 89L157 202H113L56 117L34 143V202H0V0Z" fill="url(#orange)"/>
+  <path d="M126 0H174C217 0 244 22 244 59C244 88 228 108 202 117L251 202H210L166 124H160V202H126V0ZM160 31V95H174C197 95 210 84 210 63C210 42 198 31 174 31H160Z" fill="url(#orange)"/>
 </g>
 
 <!-- identity -->
-<text x="350" y="132" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" letter-spacing="3">KEVIN</text>
-<text x="570" y="132" fill="#FF5714" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" letter-spacing="3">RODRIGUEZ</text>
-<text x="354" y="174" fill="#9EA7AF" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="8">FULL STACK DEVELOPER · BACKEND FOCUSED</text>
+<text x="390" y="122" fill="#F4F7F9" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="3">KEVIN</text>
+<text x="613" y="122" fill="#FF5714" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="3">RODRIGUEZ</text>
+<text x="394" y="165" fill="#A4ADB5" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="8">FULL STACK DEVELOPER</text>
 
-<!-- capability pills -->
-<g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#E9EEF2">
-  <rect x="350" y="210" width="166" height="40" rx="20" fill="#11171C" stroke="#493129"/><circle cx="373" cy="230" r="5" fill="#FF5714"/><text x="388" y="235">Backend Focused</text>
-  <rect x="530" y="210" width="176" height="40" rx="20" fill="#11171C" stroke="#493129"/><circle cx="553" cy="230" r="5" fill="#FF5714"/><text x="568" y="235">Clean Architecture</text>
-  <rect x="720" y="210" width="154" height="40" rx="20" fill="#11171C" stroke="#493129"/><circle cx="743" cy="230" r="5" fill="#FF5714"/><text x="758" y="235">Scalable APIs</text>
-  <rect x="888" y="210" width="146" height="40" rx="20" fill="#11171C" stroke="#493129"/><circle cx="911" cy="230" r="5" fill="#FF5714"/><text x="926" y="235">Cloud Native</text>
+<!-- capabilities -->
+<g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#E9EDF0">
+  <rect x="390" y="200" width="168" height="42" rx="21" fill="#10161A" stroke="#53352A"/><text x="412" y="226" fill="#FF5714">&lt;/&gt;</text><text x="447" y="226">Backend Focused</text>
+  <rect x="572" y="200" width="148" height="42" rx="21" fill="#10161A" stroke="#53352A"/><text x="594" y="226" fill="#FF5714">›_</text><text x="628" y="226">Clean Code</text>
+  <rect x="734" y="200" width="150" height="42" rx="21" fill="#10161A" stroke="#53352A"/><text x="756" y="226" fill="#FF5714">↗</text><text x="790" y="226">Scalable APIs</text>
+  <rect x="898" y="200" width="146" height="42" rx="21" fill="#10161A" stroke="#53352A"/><text x="920" y="226" fill="#FF5714">☁</text><text x="952" y="226">Cloud Native</text>
 </g>
 
-<!-- stack strip -->
-<g font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">
-  <rect x="350" y="282" width="102" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="372" cy="304" r="8" fill="#68A063"/><text x="389" y="309" fill="#EAF0F3">Node.js</text>
-  <rect x="464" y="282" width="112" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="486" cy="304" r="8" fill="#3178C6"/><text x="503" y="309" fill="#EAF0F3">TypeScript</text>
-  <rect x="588" y="282" width="104" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="610" cy="304" r="8" fill="#E0234E"/><text x="627" y="309" fill="#EAF0F3">NestJS</text>
-  <rect x="704" y="282" width="86" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="726" cy="304" r="8" fill="#FF9900"/><text x="743" y="309" fill="#EAF0F3">AWS</text>
-  <rect x="802" y="282" width="86" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="824" cy="304" r="8" fill="#4285F4"/><text x="841" y="309" fill="#EAF0F3">GCP</text>
-  <rect x="900" y="282" width="98" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="922" cy="304" r="8" fill="#2496ED"/><text x="939" y="309" fill="#EAF0F3">Docker</text>
-  <rect x="1010" y="282" width="118" height="44" rx="12" fill="#11171C" stroke="#27313A"/><circle cx="1032" cy="304" r="8" fill="#326CE5"/><text x="1049" y="309" fill="#EAF0F3">Kubernetes</text>
+<!-- stack icons / labels -->
+<g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+  <g transform="translate(400 282)"><circle cx="22" cy="22" r="20" fill="#0F1519" stroke="#27313A"/><text x="22" y="27" fill="#68A063">N</text><text x="22" y="58" fill="#C9D1D9">Node.js</text></g>
+  <g transform="translate(484 282)"><circle cx="22" cy="22" r="20" fill="#3178C6"/><text x="22" y="27" fill="white">TS</text><text x="22" y="58" fill="#C9D1D9">TypeScript</text></g>
+  <g transform="translate(584 282)"><circle cx="22" cy="22" r="20" fill="#E0234E"/><text x="22" y="27" fill="white">N</text><text x="22" y="58" fill="#C9D1D9">NestJS</text></g>
+  <g transform="translate(668 282)"><circle cx="22" cy="22" r="20" fill="#0F1519" stroke="#27313A"/><text x="22" y="27" fill="#FF9900">aws</text><text x="22" y="58" fill="#C9D1D9">AWS</text></g>
+  <g transform="translate(752 282)"><circle cx="22" cy="22" r="20" fill="#0F1519" stroke="#27313A"/><text x="22" y="27" fill="#4285F4">G</text><text x="22" y="58" fill="#C9D1D9">GCP</text></g>
+  <g transform="translate(836 282)"><circle cx="22" cy="22" r="20" fill="#2496ED"/><text x="22" y="27" fill="white">D</text><text x="22" y="58" fill="#C9D1D9">Docker</text></g>
+  <g transform="translate(920 282)"><circle cx="22" cy="22" r="20" fill="#326CE5"/><text x="22" y="27" fill="white">K8s</text><text x="22" y="58" fill="#C9D1D9">Kubernetes</text></g>
 </g>
 
-<!-- social area -->
-<g transform="translate(1160 108)" font-family="Arial, Helvetica, sans-serif">
-  <circle cx="34" cy="34" r="32" fill="#10161B" stroke="#39434C"/><text x="34" y="42" text-anchor="middle" fill="#F2F5F7" font-size="21" font-weight="700">GH</text>
-  <circle cx="110" cy="34" r="32" fill="#10161B" stroke="#39434C"/><text x="110" y="42" text-anchor="middle" fill="#F2F5F7" font-size="21" font-weight="700">in</text>
-  <text x="72" y="98" text-anchor="middle" fill="#FF5714" font-size="19" font-weight="700">@kevinsrb</text>
+<!-- social circles -->
+<g transform="translate(1164 114)" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+  <circle cx="30" cy="30" r="27" fill="#10161A" stroke="#414B54"/><text x="30" y="36" fill="#F2F5F7" font-size="18" font-weight="700">GH</text>
+  <circle cx="98" cy="30" r="27" fill="#10161A" stroke="#414B54"/><text x="98" y="36" fill="#F2F5F7" font-size="18" font-weight="700">in</text>
+  <circle cx="166" cy="30" r="27" fill="#10161A" stroke="#414B54"/><text x="166" y="36" fill="#F2F5F7" font-size="17" font-weight="700">@</text>
+  <text x="98" y="92" fill="#FF5714" font-size="19" font-weight="700">@kevinsrb</text>
 </g>
 
-<text x="350" y="376" fill="#747E87" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">NODE.JS · TYPESCRIPT · NESTJS · CLOUD · MICROSERVICES · AUTOMATION</text>
+<text x="390" y="385" fill="#737D86" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2.4">NODE.JS · TYPESCRIPT · NESTJS · AWS · GCP · DOCKER · KUBERNETES</text>
 </svg>
