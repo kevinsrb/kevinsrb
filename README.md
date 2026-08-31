@@ -2,7 +2,7 @@
 
 ## Hola, soy <span style="color:#ff5714">Kevin Rodriguez</span> 👋
 
-<img src="./assets/banner-refined.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
+<img src="./assets/banner-final.svg" width="100%" alt="Kevin Rodriguez - Full Stack Developer" />
 
 </div>
 
