@@ -7,13 +7,14 @@
 </div>
 
   <h2>👨‍💻 Sobre mí</h2>
-      <p>Soy desarrollador <strong>Full Stack con +6 años de experiencia</strong>, enfocado principalmente en <strong>backend, APIs y arquitectura de software</strong> con Node.js y TypeScript.</p>
+      <p>Soy desarrollador <strong>Full Stack con +6 años de experiencia</strong>, creando productos web de punta a punta: interfaces, APIs, datos y despliegues.</p>
       <table>
         <tr>
           <td width="50%" valign="top">
             <ul>
-              <li>Construyo APIs robustas y servicios backend preparados para crecer.</li>
-              <li>Trabajo con <strong>Node.js, TypeScript, NestJS y .NET/C#</strong>, aplicando Clean Architecture, DDD y arquitectura hexagonal cuando aportan valor.</li>
+              <li>Desarrollo aplicaciones web completas, desde interfaces modernas hasta APIs y servicios preparados para crecer.</li>
+              <li>Trabajo principalmente con <strong>Node.js, TypeScript y NestJS</strong>, y cuento con casi <strong>2 años de experiencia con C# y .NET</strong>.</li>
+              <li>Aplico Clean Architecture, DDD y arquitectura hexagonal cuando aportan valor al producto.</li>
               <li>Experiencia con <strong>AWS, GCP, Docker y Kubernetes</strong>.</li>
             </ul>
           </td>
@@ -29,7 +30,7 @@
       <h2>🛠️ Tecnologías</h2>
       <table>
         <tr>
-          <td><strong>Backend</strong></td>
+          <td><strong>APIs &amp; Servicios</strong></td>
           <td>
             <img src="./assets/icons/nodedotjs.svg" width="18" height="18" alt="Node.js"> <code>Node.js</code>
             <img src="./assets/icons/typescript.svg" width="18" height="18" alt="TypeScript"> <code>TypeScript</code>
@@ -94,12 +95,14 @@
 
 ## 📊 Actividad en GitHub
 
-<img height="160" src="https://github-stats-extended.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
-<img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
+<p align="center">
+  <img height="150" src="https://github-stats-extended.vercel.app/api?username=kevinsrb&show_icons=true&hide_border=true&bg_color=0b0f12&title_color=ff5714&icon_color=ff5714&text_color=c9d1d9&ring_color=ff5714" alt="Estadísticas de GitHub de Kevin Rodriguez" />
+  <img height="150" src="https://github-stats-extended.vercel.app/api/top-langs/?username=kevinsrb&layout=compact&hide_border=true&bg_color=0b0f12&title_color=ff5714&text_color=c9d1d9" alt="Lenguajes más usados" />
+</p>
 
 ### 🤝 Conectemos
 
-**Backend · Node.js · Arquitectura · Cloud · IA**
+**Full Stack · Node.js · C#/.NET · Cloud · IA**
 
 <a href="https://www.linkedin.com/in/kevinsamirrodriguez/"><img src="https://img.shields.io/badge/LinkedIn-FF5714?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:kevinsrb.1999@gmail.com"><img src="https://img.shields.io/badge/Email-111820?style=for-the-badge&logo=gmail&logoColor=FF5714" /></a>
