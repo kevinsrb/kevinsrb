@@ -13,7 +13,7 @@
           <td width="50%" valign="top">
             <ul>
               <li>Desarrollo aplicaciones web completas, desde interfaces modernas hasta APIs y servicios preparados para crecer.</li>
-              <li>Trabajo principalmente con <strong>Node.js, TypeScript y NestJS</strong>, y cuento con casi <strong>2 años de experiencia con C# y .NET</strong>.</li>
+              <li>Trabajo principalmente con <strong>Node.js, TypeScript, NestJS, C# y .NET</strong>.</li>
               <li>Aplico Clean Architecture, DDD y arquitectura hexagonal cuando aportan valor al producto.</li>
               <li>Experiencia con <strong>AWS, GCP, Docker y Kubernetes</strong>.</li>
             </ul>
